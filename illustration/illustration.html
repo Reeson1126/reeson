@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>everyday life &amp; inspirations</title>
+  <link rel="stylesheet" href="../reeson.css" media="screen" title="no title" charset="utf-8">
+  <link rel="stylesheet" type="text/css" href="illustration.css" charset="utf-8">
+  <script src="http://cdn.bootcss.com/jquery/3.1.0/jquery.min.js"></script>
+</head>
+<body>
+  <div id="indext">
+    <div id="i_title">
+    <p >
+      <img src="../img/index/title.png" alt="reeson" />
+    </p>
+    <p>
+      &nbsp;For&nbsp;&nbsp;Real&nbsp;&nbsp;Life&nbsp;&nbsp;Style
+    </p>
+    </div>
+    <div id="i_navigate">
+      <p class="tac2 nav">
+        <a href="../index.html">HOME</a>
+        <a href="../about/aboutme.html">ABOUT ME</a>
+        <a href="../design/design.html">DESIGN WORKS</a>
+        <a href="../illustration/illustration.html">ILLUSTRATION WORKS</a>
+        <a href="../everyday/everyday.html">EVERYDAY LIFE & INSPIRATIONS</a>
+        <a href="../travel/travel.html">TRAVEL</a>
+        <a href="../contant/contant.html">CONTANT</a>
+      </p>
+    </div>
+  </div>
+  <div id="main">
+    <div id="table-row">
+      <div class="table-list">
+        <img src="img/tuya1.jpg">
+        <img src="img/tuya2.jpg">
+        <img src="img/tuya3.jpg">
+
+      </div>
+      <div class="table-list">
+        <img src="img/qingdao1.jpg">
+        <img src="img/qingdao2.jpg">
+        <img src="img/IMG_9433.jpg">
+        <img src="img/IMG_9453.jpg">
+        <img src="img/IMG_9454.jpg">
+        <img src="img/IMG_9470.jpg">
+        <img src="img/IMG_9768.jpg">
+      </div>
+      <div class="table-list">
+        <img src="img/IMG_9476.jpg">
+        <img src="img/IMG_9490.jpg">
+        <img src="img/IMG_9509.jpg">
+        <img src="img/IMG_9513.jpg">
+        <img src="img/IMG_9760.jpg">
+        <img src="img/IMG_9530.jpg">
+        <img src="img/IMG_9550.jpg">
+      </div>
+      <div class="table-list">       
+        <img src="img/IMG_9576.jpg">
+        <img src="img/IMG_9587.jpg">
+        <img src="img/IMG_9602.jpg">
+        <img src="img/IMG_9610.jpg">
+        <img class="none" src="img/IMG_9617.jpg">
+        <img class="none" src="img/IMG_9635.jpg">
+        <img class="none" src="img/IMG_9639.jpg">
+        <button>show more</button>
+        <script>
+          $(document).ready(function(){
+            $("button").click(function(){
+              $(".none").fadeIn(1000);
+              $(".none").slideToggle("slow");
+            });
+            $("img").click(function(){
+              alert("hello world");
+            })//end div function
+          });//end doc ready
+        </script>
+      </div> 
+    </div>
+    
+  </div>
+  <div id="footer">
+    <p>copyright www.reeson.com @2016</p>
+  </div>
+
+</body>
+</html>

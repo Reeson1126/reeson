@@ -1,0 +1,28 @@
+body{text-align: center;}
+#main{
+  display: table;
+  background-color: #ddd;
+}
+#main img{
+  width: 92%;
+  border: solid 10px #fff;
+
+}
+#table-row{
+  display: table-row;
+}
+.table-list{
+  display: table-cell;
+  width: 20%;
+  vertical-align: top;
+  padding: 5px;
+}
+
+#footer{
+    background-color: #dddddd;
+    padding: 10px;
+    clear:right;
+}
+.none{
+  display: none;
+}

@@ -1,0 +1,29 @@
+  body{
+  font-size: 14px;
+  }
+  h1{
+    font-size: 2em;
+    }
+  .artcl p{
+    line-height: 1.6em;
+    color:red;
+  }
+  .artcl p q{
+    font-style: italic;
+    font-weight: bold;
+  }
+  .artcl blockquote p{
+    color: red;
+    background-image: url(img/artcl_1_1.jpg);
+    background-repeat: no-repeat;
+    background-position: top left;
+    padding-left: 150px;
+  }
+  .line{
+    padding: 10px;
+    border-top: solid; 
+    border-top-width:5px;
+    border-bottom: thin groove;
+    margin-bottom: 10px;
+    color:red;
+  }

@@ -1,0 +1,72 @@
+
+  #auto{
+    font-size: 14px;
+    font-family:"Helvetica",sans-serif;
+  }
+   #right{
+    width: 300px;
+    border-style: solid;
+    float: right;
+    padding: 15px;
+  }
+  #main{
+    margin: 30px 370px 0px 0px;
+    text-align: left;
+  }
+  h4{
+    color: #60dc35;
+    font-family:"Helvetica Regular"
+  }
+  .atrl_img{
+    width: 100%;
+  }
+  h1{
+    font-size: 2em;
+    }
+  .artcl-title{
+    text-align: left;
+    font-family: "STHeiti Light [STXihei]","Microsoft YaHei";
+  }
+  .artcl p{
+    line-height: 1.6em;
+    color:#000;
+  }
+  .artcl p q{
+    font-style: italic;
+    font-weight: bold;
+  }
+  .artcl blockquote{
+    color: #000;
+    margin: 30px 0;
+    font-size: 18px;
+    line-height: 1.3em;
+    font-weight: bold;
+  }
+  .line{
+    padding: 10px;
+    border-top: 3px solid #000; 
+    border-bottom: 1px solid #ddd ;
+    margin-bottom: 30px;
+  }
+
+  #right>img{
+    width: 80px;
+    margin: 20px;
+  }
+  #right h2{
+    text-align: center;
+    border-bottom: solid 2px #dddddd;
+    font-size: 16px;
+    letter-spacing: 2px;
+    font-weight: bold;
+  }
+  .date{
+    color: #bbb;
+    padding: 0 10px;
+  }
+  #footer{
+    background-color: #dddddd;
+    padding: 20px;
+  }
+
+
